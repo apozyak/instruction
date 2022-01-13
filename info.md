@@ -27,3 +27,8 @@ git config --global user.email
 Для того чтобы перейти к определенному комиту можно использовать команду 
 git checkout code_commit
     code_commit - код коммита к которому хотим перейти, его можно посмотреть в git log
+
+Чтобы вернуться к самому последнему состоянию:
+git checkout master
+
+fdsflij
