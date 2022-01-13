@@ -4,7 +4,9 @@
 git init
 
 Если имя пользователя и почта ещё не были заданы:
+
 git config --global user.name
+
 git config --global user.email
 
 
@@ -25,10 +27,11 @@ git config --global user.email
 
 ## Работа с коммитами
 Для того чтобы перейти к определенному комиту можно использовать команду 
+
 git checkout code_commit
+
     code_commit - код коммита к которому хотим перейти, его можно посмотреть в git log
 
 Чтобы вернуться к самому последнему состоянию:
-git checkout master
 
-fdsflij
+git checkout master
