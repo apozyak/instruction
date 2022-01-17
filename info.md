@@ -1,41 +1,41 @@
 #  Инструкция по работе с git репозиторием
 
 ## Для начала работы:
-git init
+> git init
 
 Если имя пользователя и почта ещё не были заданы:
 
-git config --global user.name
+> git config --global user.name
 
-git config --global user.email
+> git config --global user.email
 
 
 ## Работа с файлами:
 Для того чтобы добавить файл, нужно:
-1. git add file_name
+1. > git add file_name
 
     добавляем файл с именем file_name для отслеживания
-2. git commit -m "some message"
+2. > git commit -m "some message"
 
     * добавляем текущие изменения в репозиторий и подписываем их с помощью тега -m
     * если добавить тег -a, то к комиту добавятся все изменные файлы, которые уже отслеживались
 
 Чтобы отслеживать состояние репозитория:
-1. git status
-2. git log
-3. git diff
+1. > git status
+2. > git log
+3. > git diff
 
 
 ## Работа с коммитами
 Для того чтобы перейти к определенному комиту можно использовать команду 
 
-git checkout code_commit
+> git checkout code_commit
 
     code_commit - код коммита к которому хотим перейти, его можно посмотреть в git log
 
 Чтобы вернуться к самому последнему состоянию:
 
-git checkout master
+> git checkout master
 
 ![error](pic.jpg)
 
