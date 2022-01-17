@@ -38,3 +38,14 @@ git checkout code_commit
 git checkout master
 
 ![error](pic.jpg)
+
+
+## Ветки в git
+Чтобы посмотреть все ветки:
+> git branch
+
+Для создания новой ветки с именем branch_name:
+> git branch branch_name
+
+Переместиться к ветке с именем branch_name:
+> git checkout branch_name
