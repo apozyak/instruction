@@ -62,3 +62,10 @@ git checkout master
 
 Удаление с игнорирование ошибок:
 > git branch -D branch_name
+
+## Справка
+Чтобы вызвать справку по команде, допишите тег:
+> --help
+примеры:
+> git add --help
+> git branch --help
